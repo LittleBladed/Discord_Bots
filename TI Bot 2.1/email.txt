@@ -1,0 +1,8 @@
+Goeiedag! <br><br>
+
+Dankjewel voor je interesse om de HoGent Discord te joinen! <br>
+Gebruik deze code om jezelf te verifiëren:
+
+<h1>%s</h1>
+
+tip: stuur deze code zonder iets anders naar de bot
