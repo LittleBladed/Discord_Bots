@@ -1,0 +1,77 @@
+{
+    "prefix": ">",
+    "botChannel": "bot-commands",
+    "ticketAccessRole": "Support",
+    "ticketLogChannel": "logs",
+    "joinToCreateVC": "Join To Create VC",
+    "suggestionChannel": "sugs",
+    "suggestionLogChannel": "suggestions",
+    "moderationLogChannel": "logs",
+    "mutedRole": "Muted",
+    "appealServerInvite": "discord.gg/invite",
+    "canKickRoles": [
+        "Mod"
+    ],
+    "canBanRoles": [
+        "Admin"
+    ],
+    "staffRole": "Staff",
+    "ticketCategories": {
+        "Example": {
+            "description": "Example Ticket",
+            "message": "Hi! A staff member will assist you ASAP!",
+            "questions": [
+                {
+                    "type": "yesno",
+                    "question": "Do you accept our TOS?"
+                },
+                {
+                    "type": "regular",
+                    "question": "What is your name?",
+                    "checkQuestion": "Do you accept our TOS?",
+                    "checkAnswer": "Yes"
+                },
+                {
+                    "type": "multiplechoice",
+                    "question": "What is your skill level?",
+                    "checkQuestion": "Do you accept our TOS?",
+                    "checkAnswer": "Yes",
+                    "choices": [
+                        "Beginner",
+                        "Intermediate",
+                        "Expert"
+                    ]
+                },
+                {
+                    "type": "regular",
+                    "question": "Anything else you'd like to add?",
+                    "checkQuestion": "Do you accept our TOS?",
+                    "checkAnswer": "Yes"
+                }
+            ]
+        },
+        "Example 2": {
+            "description": "Example Ticket 2",
+            "message": "Hi! A staff member will assist you ASAP!",
+            "questions": []
+        }
+    },
+    "suggestionQuestions": {
+        "message": "Hi! Thank you for making a report! I will now ask a few questions regarding your report!",
+        "questions": [
+            {
+                "type": "multiplechoice",
+                "question": "Does this regard a bug report or a suggestion?",
+                "choices": [
+                    "Bug",
+                    "Suggestion"
+                ]
+            },
+            {
+                "type": "regular",
+                "question": "Please briefly explain your report"
+            }
+        ]
+    },
+    "ticketBanned": []
+}
