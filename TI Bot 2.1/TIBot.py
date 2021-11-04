@@ -2,7 +2,7 @@ import discord, os
 from discord.ext import commands, tasks
 
 
-bot = commands.Bot(">", self_bot=False, help_command=None)
+bot = commands.Bot(">", self_bot=False, help_command=None, intens=discord.Intents.all())
 bot.remove_command("help")
 
 
@@ -88,4 +88,4 @@ async def on_ready():
 
         
 
-bot.run(token, bot=True)
+bot.run(token)

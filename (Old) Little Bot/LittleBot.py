@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 import itertools
 
 
-bot = commands.Bot(">", self_bot=False, help_command=None)
+bot = commands.Bot(">", self_bot=False, help_command=None, intents=discord.Intents.all())
 bot.remove_command("help")
 
 statuslist = ['>', '>h', '>he', '>hel', '>help', '>', '>n', '>ne', '>new']
@@ -92,4 +92,4 @@ async def on_ready():
 
         
 
-bot.run(token, bot=True)
+bot.run(token)
