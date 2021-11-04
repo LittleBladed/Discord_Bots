@@ -1,1 +1,0 @@
-Coinbase API token here

@@ -1,2 +1,0 @@
-python "littlebot.py"
-pause
